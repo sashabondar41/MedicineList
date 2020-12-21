@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Все о лекарствах</string>
+    <string name="title_activity_stock">Stock</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="allMedicine">Поиск</string>
+    <string name="inputName">Введите название лекарства</string>
+    <string name="medicineName">Название лекарства</string>
+    <string name="waytouse">Cпособ применения</string>
+    <string name="description">Описание</string>
+    <string name="inputLogin">Введите логин:</string>
+    <string name="inputPass">Введите пароль:</string>
+    <string name="repeatPass">Повторите пароль:</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="password">Пароль</string>
+    <string name="login">Логин</string>
+    <string name="guest">Войти как гость</string>
+    <string name="enterLogin">Войти с паролем</string>
+    <string name="enter">Войти</string>
+    <string name="saveIn">Добавить в закладки</string>
+    <string name="saves">Закладки</string>
+    <string name="newMedicine">Добавить новое</string>
+    <string name="save">Сохранить изменения</string>
+    <string name="delete">Удалить запись</string>
+    <string name="create">Создать</string>
+</resources>

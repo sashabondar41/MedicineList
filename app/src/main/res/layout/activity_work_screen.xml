@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:hint="@string/inputName"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/allMedicine"
+        android:layout_margin="5dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/allMedicine" />
+
+    <Button
+        android:id="@+id/getSaves"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="@string/saves"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/newMedicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="@string/newMedicine"
+        android:visibility="gone" />
+
+</LinearLayout>

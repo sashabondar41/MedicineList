@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/medicineName"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/outputName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:paddingRight="10dip"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:paddingRight="10dip"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:visibility="gone"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/outputDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="7"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:paddingRight="10dip"
+        android:scrollbars="vertical"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="7"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:paddingRight="10dip"
+        android:scrollbars="vertical"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:visibility="gone"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/waytouse"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/outputWaytouse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="7"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:paddingRight="10dip"
+        android:scrollbars="vertical"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/editWaytouse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="7"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:paddingRight="10dip"
+        android:scrollbars="vertical"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/saveIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="@string/saveIn"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="@string/create"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:text="@string/save"
+            android:layout_weight="1"/>
+
+        <Button android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:text="@string/delete"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
