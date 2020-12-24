@@ -66,13 +66,14 @@ public class ShowSaves extends ListActivity {
 
         protected String doInBackground(String... args) {
             String[] saves = getIntent().getStringExtra(TAG_SAVES).split(" ");
-            HashMap<String, String> map = new HashMap<>();
             for (String save : saves){
+                System.out.println(save);
                 List<NameValuePair> par = new ArrayList<>();
                 par.add(new BasicNameValuePair(TAG_ID, save));
                 JSONObject json = jParser.makeHttpRequest(urlGetMedicine, "POST", par);
                 Log.d("Закладка", json.toString());
                 try {
+                    HashMap<String, String> map = new HashMap<>();
                     JSONArray medicine = json.getJSONArray(TAG_PRODUCTS);
                     JSONObject drug = medicine.getJSONObject(0);
                     String name = drug.getString(TAG_NAME);
